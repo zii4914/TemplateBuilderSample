@@ -12,7 +12,11 @@
       android:layout_width="match_parent"
       android:layout_height="200dp"
       android:layout_gravity="bottom"
+      <#if log_visible>
       android:visibility="visible"
+      <#else>
+      android:visibility="gone"
+      </#if>
       >
     <TextView
         android:id="@+id/tv_log"

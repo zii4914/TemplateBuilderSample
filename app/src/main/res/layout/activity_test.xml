@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".${testName}Activity"
+    tools:context=".${activity_name}Activity"
     >
 
   <Button
-      android:id="@+id/btn_${testName}"
+      android:id="@+id/btn_${activity_name}"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:onClick="on${testName}"
-      android:text="${testName}"
+      android:onClick="on${activity_name}"
+      android:text="${activity_name}"
       android:textAllCaps="false"
       />
 

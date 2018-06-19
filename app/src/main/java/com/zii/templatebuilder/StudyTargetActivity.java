@@ -1,30 +1,30 @@
-package com.zii.templatebuilder;
+package ${packageName};
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.util.Log;
 
-public class MainActivity extends AppCompatActivity {
+public class ${activity_name}Activity extends AppCompatActivity {
 
   private TextView mTvLog;
 
   public static void start(Context context) {
-    Intent starter = new Intent(context, MainActivity.class);
+    Intent starter = new Intent(context, ${activity_name}Activity.class);
     context.startActivity(starter);
   }
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+    setContentView(R.layout.activity_${layout_name});
     mTvLog = findViewById(R.id.tv_log);
   }
 
-  public void onTestAbc(View view) {
+  public void on${first}(View view) {
 
   }
 
