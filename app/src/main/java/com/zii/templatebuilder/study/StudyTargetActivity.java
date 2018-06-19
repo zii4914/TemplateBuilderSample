@@ -6,7 +6,7 @@
 //import android.support.v7.app.AppCompatActivity;
 //import android.view.View;
 //import android.widget.TextView;
-//import com.zii.templatebuilder.R;
+//import ${packageName}.R;
 //
 //public class ${activity_name}Activity extends BaseActivity {
 //
